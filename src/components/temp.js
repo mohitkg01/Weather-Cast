@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Weathercard from './weathercard';
 import "./style.css"
 const Temp = () => {
-    const[searchValue,setSearchValue]=useState("pune");
+    const[searchValue,setSearchValue]=useState("");
     const[tempInfo,setTempInfo]=useState({});
     const getWeatherInfo=async()=>{ 
         try{
@@ -31,7 +31,7 @@ const Temp = () => {
     <div className="wrap">
         <div className="search"> 
         <input type="search"
-        placeholder='search...'
+        placeholder='Enter place....'
         autoFocus
         id="search" 
         className="searchTerm"
