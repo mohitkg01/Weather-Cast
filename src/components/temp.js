@@ -40,7 +40,7 @@ const Temp = () => {
          />
          <button className="searchButton" type="button"
          onClick={getWeatherInfo}>
-            searchimg
+            search
             </button>
         </div>
     </div>
